@@ -1,0 +1,16 @@
+PODS:
+  - MHMWPhotoBrowser (0.1.0)
+
+DEPENDENCIES:
+  - MHMWPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  MHMWPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHMWPhotoBrowser: 9faf8d4dcc641a466fc47e7f8438c1d820b890bc
+
+PODFILE CHECKSUM: ca5d9c217ded5bfb44b7baa1392669c5697bef36
+
+COCOAPODS: 1.10.0

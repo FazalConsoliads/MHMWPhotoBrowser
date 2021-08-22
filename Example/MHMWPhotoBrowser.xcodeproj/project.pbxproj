@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC06F57973248356CDC4C9EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D129E12DA82FB10ACCC5F581 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D1841F7C259DAB494719F6F5 /* MHMWPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHMWPhotoBrowser.podspec; path = ../MHMWPhotoBrowser.podspec; sourceTree = "<group>"; };
+		BC06F57973248356CDC4C9EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D129E12DA82FB10ACCC5F581 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1841F7C259DAB494719F6F5 /* MHMWPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHMWPhotoBrowser.podspec; path = ../MHMWPhotoBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D69BB12126DAF27AFDAE0B3C /* Pods_MHMWPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHMWPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA363BD3B8A2255995C1AAED /* Pods-MHMWPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHMWPhotoBrowser_Tests.release.xcconfig"; path = "Target Support Files/Pods-MHMWPhotoBrowser_Tests/Pods-MHMWPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				5FFC08EC31CE98468FA5B3FD /* Pods-MHMWPhotoBrowser_Tests.debug.xcconfig */,
 				DA363BD3B8A2255995C1AAED /* Pods-MHMWPhotoBrowser_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
