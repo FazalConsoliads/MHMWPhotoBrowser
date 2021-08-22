@@ -18,5 +18,22 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MHMWPhotoBrowser/Classes/**/*"
+  "source_files": "MHMWPhotoBrowser/Classes/**/*",
+  "requires_arc": true,
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "DACircularProgress": [
+
+    ]
+  },
+  "resource_bundles": {
+    "MHMWPhotoBrowser": [
+      "MHMWPhotoBrowser/Assets/*.png"
+    ]
+  }
 }

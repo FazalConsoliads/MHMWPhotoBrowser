@@ -1,15 +1,32 @@
 PODS:
-  - MHMWPhotoBrowser (0.1.0)
+  - DACircularProgress (2.3.1)
+  - MBProgressHUD (1.2.0)
+  - MHMWPhotoBrowser (0.1.0):
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
 
 DEPENDENCIES:
   - MHMWPhotoBrowser (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage
 
 EXTERNAL SOURCES:
   MHMWPhotoBrowser:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MHMWPhotoBrowser: 9faf8d4dcc641a466fc47e7f8438c1d820b890bc
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MHMWPhotoBrowser: 2e4b551adb864e10c1701ae5860cc48216242397
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
 PODFILE CHECKSUM: ca5d9c217ded5bfb44b7baa1392669c5697bef36
 

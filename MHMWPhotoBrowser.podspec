@@ -31,10 +31,18 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MHMWPhotoBrowser/Classes/**/*'
+
+  s.requires_arc = true
   
-  # s.resource_bundles = {
-  #   'MHMWPhotoBrowser' => ['MHMWPhotoBrowser/Assets/*.png']
-  # }
+  s.dependency 'MBProgressHUD'
+
+  s.dependency 'SDWebImage'
+
+  s.dependency 'DACircularProgress'
+  
+  s.resource_bundles = {
+     'MHMWPhotoBrowser' => ['MHMWPhotoBrowser/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

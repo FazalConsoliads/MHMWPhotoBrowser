@@ -7,7 +7,14 @@
 //
 
 @import UIKit;
+#import "MWPhotoBrowser.h"
 
-@interface MWViewController : UIViewController
+@interface MWViewController : UITableViewController <MWPhotoBrowserDelegate> {
+    MWPhotoBrowser *browser;
+    NSMutableArray *_selections;
+}
+
+@property (nonatomic, strong) NSMutableArray *photos;
+@property (nonatomic, strong) NSMutableArray *thumbs;
 
 @end
