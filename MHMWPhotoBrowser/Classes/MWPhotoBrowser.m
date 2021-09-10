@@ -1362,7 +1362,9 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     if (!_gridController) return;
     
     // Remember previous content offset
-    _currentGridContentOffset = _gridController.collectionView.contentOffset;
+    if (_gridController.collectionView.contentOffset.y > 0) {
+        _currentGridContentOffset = _gridController.collectionView.contentOffset;
+    }
     
     // Restore action button if it was removed
     if (_gridPreviousRightNavItem == _actionButton && _actionButton) {
